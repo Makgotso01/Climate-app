@@ -141,5 +141,6 @@ footer {
 .container .cloud1 {
   position: top;
   top: 68px;
-  animation: cloudOne infinite 30s linear;
+  animation: url(http://www.pngall.com/wp-content/uploads/2016/03/Cloud-PNG-5.png)
+    infinite 30s linear;
 }
