@@ -1,5 +1,6 @@
 body {
   background-color: #f9f7fe;
+  background: url(http://www.pngall.com/wp-content/uploads/2016/03/Cloud-PNG-5.png);
   font-family: "Roboto", sans-serif;
 }
 
@@ -8,10 +9,10 @@ a {
 }
 
 .weather-app {
-  background: white;
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+
   border-radius: 16px;
   padding: 30px;
 }
@@ -31,7 +32,7 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: grey;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -43,7 +44,6 @@ header {
 main {
   padding: 30px 0;
 }
-
 .weather-app-data {
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@ main {
 
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: black (39, 33, 66, 0.4);
   line-height: 24px;
   font-weight: 500;
 }
@@ -94,7 +94,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: black (0, 0, 0, 0.4);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -123,5 +123,21 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: black (0, 0, 0, 0.6);
+}
+.container {
+  background: url(http://www.pngall.com/wp-content/uploads/2016/03/Cloud-PNG-5.png);
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.container img {
+  width: 100%;
+}
+.container .cloud1 {
+  position: top;
+  top: 68px;
+  animation: cloudOne infinite 30s linear;
 }
