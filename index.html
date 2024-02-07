@@ -3,66 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet" />
-    <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Climate App</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+    <title>React App</title>
   </head>
   <body>
-    <div class="weather-app">
-      <header>
-        <form class="search-form" id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city.."
-            required
-            id="search-form-input"
-            class="search-form-input" />
-          <input type="submit" value="Search" class="search-form-button" />
-        </form>
-      </header>
-      <main>
-        <div class="weather-app-data">
-          <div>
-            <h1 class="weather-app-city" id="city"></h1>
-            <p class="weather-app-details">
-              <span id="time"></span>,
-              <span id="description"></span>
-              <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
-              <strong id="wind-speed"></strong>
-            </p>
-          </div>
-          <div class="weather-app-temperature-container">
-            <div id="icon"></div>
-            <div class="weather-app-temperature" id="temperature"></div>
-            <div class="weather-app-unit">°C</div>
-          </div>
-        </div>
-        <div class="weather-forecast" id="forecast"></div>
-      </main>
-
-      <footer>
-        This project was coded by
-        <a href="https://github.com/Makgotso01/" target="_blank">
-          Makgotso ntai</a
-        >, is
-        <a href="https://github.com/Makgotso01/Climate-app" target="_blank"
-          >open-sourced on GitHub</a
-        >
-        and
-        <a href="hhttps://theclimate-app.netlify.app///" target="_blank"
-          >hosted on Netlify</a
-        >
-      </footer>
-    </div>
-<div class="container">
-  <div class="cloud1"><imag src="http://www.pngall.com/wp-content/uploads/2016/03/Cloud-PNG-5.png"></div>
-,<div class="Cloud2"><imag src="https://thypix.com/wp-content/uploads/2021/06/clouds-transparent-background-24-768x518.png"></div>
-    <script src="src/index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
